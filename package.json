@@ -12,16 +12,14 @@
     "name": ""
   },
   "scripts": {
-    "dev": "",
-    "test": ""
+    "start": "node main.js",
+    "hello": "node hello.js"
   },
   "dependencies": {
+    "@faker-js/faker": "^9.0.3",
     "chalk": "^5.3.0",
-    "lodash": "^4.17.21"
-
-  },
-  "devDependencies": {
-
-
+    "colors": "^1.4.0",
+    "lodash": "^4.17.21",
+    "validator": "^13.12.0"
   }
 }
